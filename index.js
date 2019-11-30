@@ -1,14 +1,7 @@
-const axios = require('axios');
+let $ = require("jQuery");
+let greeting = () => console.log("Hi Tamuna");
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-.then(response => response.json())
-.then(json => console.log(json))
+greeting();
 
+$("p").css("background-color", "red");
 
-axios.get('https://jsonplaceholder.typicode.com/todos/1')
-.then((response) => {
-  console.log(response.data);
-})
-.catch(function (error) {
-  console.log(error);
-});

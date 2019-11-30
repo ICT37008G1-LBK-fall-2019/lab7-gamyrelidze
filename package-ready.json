@@ -11,22 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ICT37008G1-LBK-fall-2019/lab7-gamyrelidze.git"
+    "url": "js-api-test"
   },
-  "author": "davit gamyrelidze",
+  "author": "gdznela",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ICT37008G1-LBK-fall-2019/lab7-gamyrelidze/issues"
-  },
-  "homepage": "https://github.com/ICT37008G1-LBK-fall-2019/lab7-gamyrelidze#readme",
-  "devDependencies": {
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "babelify": "^10.0.0",
-    "browserify": "^16.5.0",
-    "watchify": "^3.11.1"
-  },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "watchify": "^3.11.0"
   }
 }
